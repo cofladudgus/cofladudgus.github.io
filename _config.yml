@@ -40,9 +40,6 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-# Disqus comments
-disqus_shortname: cofladudgus
-
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
