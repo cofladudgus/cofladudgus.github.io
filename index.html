@@ -23,6 +23,11 @@ layout: default
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
     </section>
     <section class="post-meta">
+      <a href="#">
+        <div class="author-img" style="background-image: url(/files/jangyoung.jpg);">
+        </div>
+        <p class="author-name">jangyoung</p>
+      </a>
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
       <div class="post-categories">
       {% if post.categories.size > 0 %}in {% for cat in post.categories %}
